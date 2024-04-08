@@ -1,0 +1,479 @@
+/* CSS de los componentes */
+/* ---------HEADER------------ */
+
+body {
+  background-image: linear-gradient(
+    0deg,
+    #ffdee9 0%,
+    #b5fffc 50%,
+    #ffffff 100%
+  );
+}
+.header {
+  width: 100%;
+}
+.header__h1 {
+  padding-left: 2.5rem;
+  font-family: monospace;
+}
+.nav {
+  margin-right: 2rem;
+}
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__li {
+  padding: 1em;
+  text-align: center;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.link:hover {
+  color: rgb(174, 18, 12);
+  cursor: pointer;
+  border-bottom: 0.1em solid black;
+}
+/* ------------INDEX--------------------- */
+
+.inicio__contenedor {
+  display: flex;
+  align-items: center;
+}
+.inicio__div {
+  width: 80%;
+  margin: 0 auto;
+}
+.inicio__h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: monospace;
+  margin: 0.5 0;
+  color: rgb(153, 11, 11);
+}
+.inicio__img {
+  width: 100%;
+  height: 90%;
+}
+
+/* -----TIENDA-------------- */
+.tienda__h2 {
+  text-align: center;
+  color: brown;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.tienda__lista {
+  width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+}
+.tienda__div {
+  width: 32rem;
+  height: 28rem;
+  border: 1px solid brown;
+  padding: 0.7em;
+  margin: 1em;
+  border-radius: 2rem;
+  box-shadow: 1em 1em 1.5em gray;
+}
+.tienda__img {
+  margin: 0 10rem;
+  border-radius: 2rem;
+}
+.tienda__objeto {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0;
+}
+.tienda__precio {
+  font-family: "Courier";
+  color: brown;
+  margin: 0.5em;
+}
+.tienda__desc {
+  font-family: "Courier";
+  padding: 0;
+  margin: 0 0.5em;
+  font-size: 0.8em;
+}
+.tienda__categoria {
+  margin: 0.7em;
+}
+/* --------------RANDOM------------------------- */
+.random__h2 {
+  text-align: center;
+  color: goldenrod;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.random__div {
+  width: 25rem;
+  height: 28rem;
+  border: 1px solid goldenrod;
+  padding: 0.7em;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  box-shadow: 1em 1em 1.5em gray;
+}
+.random__img {
+  margin: 1em 8rem;
+  border-radius: 5rem;
+}
+.random__h3 {
+  text-align: center;
+  padding: 0;
+  margin: 0.1em auto;
+  font-family: "Courier";
+}
+.random__p {
+  text-align: center;
+  margin: 0.1em;
+  padding: 0.2em;
+  font-family: "Courier";
+}
+/* --------------DRAGONES----------------- */
+
+.dragon__h2 {
+  text-align: center;
+  color: red;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.dragon__h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+.dragon__ul {
+  margin: 0 2rem;
+  list-style: none;
+}
+.dragon__link {
+  text-decoration: none;
+  font-family: "Courier";
+  font-weight: 900;
+  color: darkblue;
+}
+.dragon__link:hover {
+  cursor: pointer;
+  color: red;
+}
+span {
+  color: black;
+  font-weight: bold;
+}
+/* --------------CLASES-------------------- */
+.clase__h2 {
+  text-align: center;
+  color: brown;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.clase__div {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clase__p {
+  font-family: "Courier";
+  text-align: center;
+  margin: 0.1em;
+}
+.span {
+  font-weight: bold;
+}
+.clase__link {
+  text-decoration: none;
+}
+.clase__boton {
+  margin: 1.5rem;
+  width: 8rem;
+  font-size: 1.5rem;
+  font-family: "monospace";
+  border-radius: 1rem;
+}
+/* --------------POKEAPI------------------- */
+.poke__h2 {
+  text-align: center;
+  color: goldenrod;
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+.poke__h3 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: blue;
+}
+.poke__ul {
+  margin: 0 5rem;
+  list-style: none;
+}
+.poke__link {
+  text-decoration: none;
+  font-family: "Courier";
+  color: rgb(26, 26, 142);
+  text-transform: capitalize;
+  font-weight: 900;
+  cursor: pointer;
+}
+span {
+  font-weight: bold;
+}
+/* --------------------------- */
+.tipo__h2 {
+  text-align: center;
+  color: blue;
+  font-size: 2rem;
+  font-family: monospace;
+}
+.tipo__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tipo__img {
+  width: 10rem;
+  height: 10rem;
+}
+.tipo__p {
+  font-family: "courier";
+  font-weight: 800;
+  text-transform: capitalize;
+  margin: 0.5em;
+}
+.tipo__link {
+  text-decoration: none;
+}
+.tipo__boton {
+  margin: 1.5rem;
+  width: 8rem;
+  font-size: 1.5rem;
+  font-family: "monospace";
+  border-radius: 1rem;
+}
+/* --------------API ALTERNA------------ */
+.alt__h2 {
+  text-align: center;
+  color: orangered;
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+.alt__ul {
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.alt__contenedor {
+  width: 24rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid orangered;
+  padding: 0.8em;
+  border-radius: 2rem;
+  box-shadow: 0.5em 0.5em 1em gray;
+}
+.alt__p {
+  font-family: "Courier";
+  margin: 0em 0.7em;
+  padding: 0.2em 0 0 0;
+}
+.alt__img {
+  border-radius: 1em;
+  width: 10rem;
+  height: 10rem;
+}
+/* --------------FOOTER----------------- */
+.footer {
+  margin: 3rem auto;
+}
+.footer__p {
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+/* media queries */
+@media screen and (min-width: 390px) and (max-width: 540px) {
+  .header {
+    width: 100%;
+    display: block;
+  }
+  .nav {
+    width: 100%;
+    margin: 0;
+  }
+  .nav__ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav__li {
+    padding: 0.5em;
+    font-size: 0.9em;
+    margin: 0;
+  }
+  /* inicio */
+
+  .inicio__contenedor {
+    margin: 1rem auto;
+  }
+  .inicio__h2 {
+    font-size: 1.5em;
+    color: rgb(153, 11, 11);
+  }
+  /* tienda */
+  .tienda__h2 {
+    font-size: 1.5em;
+  }
+  .tienda__lista {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  .tienda__div {
+    width: 99%;
+    margin: 0.5em;
+    padding: 0;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+  }
+  .tienda__img {
+    margin: 1em;
+  }
+  .tienda__desc {
+   display: none;
+  }
+  .tienda__objeto {
+    font-size: 1em;
+    padding: 0.3em;
+  }
+  .tienda__precio {
+    margin: 0.3em;
+  }
+  /* random */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .random__div {
+    margin: 1rem auto;
+    padding: 0;
+    width: 22rem;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+  }
+  /* apiAlterna */
+
+  .alt__contenedor {
+    width: 20rem;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 768px) {
+  .header {
+    width: 100%;
+    display: block;
+  }
+  .nav {
+    width: 100%;
+    margin: 0;
+  }
+  .nav__ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav__li {
+    padding: 0.7em;
+    font-size: 1em;
+  }
+  /* inicio */
+
+  .inicio__h2 {
+    font-size: 1.7em;
+    color: rgb(153, 11, 11);
+  }
+  /* tienda */
+  .tienda__lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .tienda__div {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+  }
+  .tienda__desc {
+    display: none;
+  }
+  .tienda__img{
+    margin: 1em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .header {
+    width: 100%;
+    display: block;
+
+  }
+  .nav {
+    width: 100%;
+    margin: 0;
+  }
+  .nav__ul {
+    margin: 0;
+    padding: 0;
+  }
+  .nav__li {
+    padding: 0.7em;
+    font-size: 1.4em;
+  }
+/* tienda */
+.tienda__lista {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .tienda__div {
+    width: 49%;
+    margin: 0.6em auto;
+    padding: 0.5em;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+  }
+  .tienda__desc {
+    display: none;
+  }
+  
+  .tienda__img{
+    padding: 0.5em;
+    margin: 1em;
+  }
+
+}
